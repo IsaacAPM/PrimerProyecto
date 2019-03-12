@@ -1,0 +1,11 @@
+Proyecto 1 debe contener:
+1.- Navbar hasta arriba que tenga un logo a la izquierda y 3 botones a la derecha que digan: (Listo)
+	a)Video
+	b)Descripción
+	c)Tarjetas
+2.- La primera sección va a ser el video que se reproduzca automáticamente sin sonido (listo)
+3.- La segunda se tiene que dividir a la mitad, la mitad de la izquierda va a tener texto descriptivo del tema que
+    elegiste y en la mitad de la derecha una imagen
+4.- La tercera sección van a ser 8 targetas (dos filas de 4) con 8 personajes del tema que elgiste, cada targeta
+    va a tener una imagen con texto sobrepuesto. El texto debe estar legible
+5.- Hasta el final un footer
