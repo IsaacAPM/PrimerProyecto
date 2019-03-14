@@ -77,45 +77,24 @@ li a:hover:not(.PokeLogo){
     margin-right: 15%;
 }
 
-#protaFem{
-    width: 70%;
-    height: 60%;
+#protaFem>div{
+    position: relative;
+    bottom:450px;
+    color:#fff;
+    background-color:#000;
+    padding:2px 10px;
+    opacity:0.5;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#protaMas{
-    width: 70%;
-    height: 60%;
+#protaMas>div{
+    position: relative;
+    bottom:450px;
+    color:#fff;
+    background-color:#000;
+    padding:2px 10px;
+    opacity:0.5;
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-#inicialF{
-    width: 70%;
-    height: 60%;
-}
-
-#inicalA{
-    width: 70%;
-    height: 60%;
-}
-
-#inicialP{
-    width: 70%;
-    height: 60%;
-}
-
-#pikachu{
-    width: 70%;
-    height: 60%;
-}
-
-#pkeLegen{
-    width: 70%;
-    height: 60%;
-}
-
-#entrenadora{
-    width: 70%;
-    height: 60%;
-}
-
-
-
