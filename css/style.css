@@ -1,3 +1,8 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -47,14 +52,18 @@ li a:hover:not(.PokeLogo){
 
 #review{
     width: 48%;
+    height: 100%;
     float: left;
     margin-top: 40px;
     margin-left: 2%;
-    margin-bottom: 40px;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 #pokeSS{
     width: 47%;
+    height: 100%;
     float: right;
     margin-top: 40px;
     margin-right: 2%;
@@ -69,43 +78,43 @@ li a:hover:not(.PokeLogo){
 }
 
 #protaFem{
-    width: 480px;
-    height: 900px;
+    width: 70%;
+    height: 60%;
 }
 
 #protaMas{
-    width: 480px;
-    height: 900px;
+    width: 70%;
+    height: 60%;
 }
 
 #inicialF{
-    width: 480px;
-    height: 900px;
+    width: 70%;
+    height: 60%;
 }
 
 #inicalA{
-    width: 480px;
-    height: 900px;
+    width: 70%;
+    height: 60%;
 }
 
 #inicialP{
-    width: 480px;
-    height: 900px;
+    width: 70%;
+    height: 60%;
 }
 
 #pikachu{
-    width: 480px;
-    height: 900px;
+    width: 70%;
+    height: 60%;
 }
 
 #pkeLegen{
-    width: 480px;
-    height: 900px;
+    width: 70%;
+    height: 60%;
 }
 
 #entrenadora{
-    width: 480px;
-    height: 900px;
+    width: 70%;
+    height: 60%;
 }
 
 
