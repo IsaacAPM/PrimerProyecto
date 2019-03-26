@@ -4,49 +4,63 @@
         <title>Primer proyecto</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <ul>
             <li><a class="PokeLogo"><img src="images/logo.png" alt="Pokemon Logo" width="16" height="16"></a></li>
             <li><a class="videoPkm" href="#video">Video</a></li>
-            <li><a class="description" href="#section2">Descripción</a></li>
-            <li><a class="cards">Tarjetas</a></li>            
+            <li><a class="description" href="#descripcion">Descripción</a></li>
+            <li><a class="cards" href="#targetas">Tarjetas</a></li>            
         </ul>
         <video id="video" src="¡Alzaos con la gloria en Pokémon Espada y Pokémon Escudo!.mp4" width="1080" height="608" preload="auto" autoplay controls muted loop></video>
-        <div id="section2">
+        <div class="section2" id="descripcion">
             <p id="review" ALIGN="justify">
                     El pasado 27 de febrero de 2019 fue transmitido en todo el mundo el Pokémon Direct, todos los fans de esta franquicia esperábamos con ansias este evento con la esperanza de tener noticias de los nuevo juegos de Pokémon; grande fue la sorpresa de todos los fans cuando no solo anunciaron la tan esperada 8° generación sino que también mostraron un tráiler de los nuevos juegos, el cual puse al inicio del blog para los que no lo hayan visto todavía, en el tráiler podemos observar a los protagonistas de estos nuevos juegos titulados Pokémon Espada y Pokémon Escudo, los cuales a mi parecer lucen muy bien, un detalle a resaltar es que la protagonista por primera vez utiliza una mochila y no una bolsa; podemos apreciar un primer vistazo a los gráficos de los nuevos juegos, estos me parecieron muy buenos salvo por unos pequeños detalles como el agua y otras cositas, pero nada muy notoria, debemos recordar que lo que vimos es solo imágenes de una versión incompleta del juego por lo que todavía podrían corregir estos detalles. 
                     <br><br>La nueva región se llamará Galar y estará basada en Londres, también tenemos el regreso de los gimnasios, los cuales estuvieron ausentes en la anterior generación, al parecer en estos nevos juegos los gimnasios serán dirigidos por los “Gym Masters” es decir maestros de gimnasio en lugar de los originales lideres de gimnasio, por el momento se desconocen mas detalles de estos. En lo personal lo más impactante del tráiler fue la presentación de los nuevos Pokémon iniciales, los cuales son Scorbunny, Sobble y Grookey iniciales de fuego, agua y planta respectivamente, en mi opinión los tres tiene muy buenos diseños y estoy deseado ver sus evoluciones, por el momento mi favorito es Scorbunny. Espero que les hayan disfrutado tanto como yo de este tráiler y solo queda esperar por más noticias, los juegos se estrenaran a nivel mundial a finales de 2019. 
             </p>
             <img id="pokeSS" src="images/pokemon-espada-y-escudo-201922715414275_1.jpg" alt="Pokemon sys">
         </div>
-        <div id="section3">
-            <table>
-                <tbody>
-                    <tr>
-                        <td id="protaFem">
-                            <img src="images/ProtaFemina.jpg" width="480" height="900">
-                            <div>Protagonista femenina</div>
-                        </td>
-                        <td  id="protaMas">
-                            <img src="images/ProtaMas.PNG" width="480" height="900">
-                            <div>Protagonista masculino</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><img src="images/inicialFuego.jpg" id="inicialF" width="480" height="900"></td>
-                        <td><img src="images/inicialAgua.jpg" id="inicalA" width="480" height="900"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="images/inicialPlanta.jpg" id="inicialP" width="480" height="900"></td>
-                        <td><img src="images/Pikachu.PNG" id="pikachu" width="480" height="900"></td>
-                    </tr>
-                    <tr>
-                        <td><img src="images/PkeLegen.PNG" id="pkeLegen" width="480" height="900"></td>
-                        <td><img src="images/entrenadora.jpg" id="entrenadora" width="480" height="900"></td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="flex-container" id="targetas">
+                <div class="flex-containerC" id="colum1">
+                    <div class="contenedor">
+                        <img src="images/versionFinal/protaFem.png">
+                        <div class="texto-encima">Protagonista Femenina</div>
+                    </div>
+                    <div class="contenedor">
+                        <img src="images/versionFinal/iniF.png">
+                        <div class="texto-encima" >Inicial de tipo Fuego<br>Scorbunny</div>
+                    </div>
+                    <div class="contenedor">
+                        <img src="images/versionFinal/iniP.png">
+                        <div class="texto-encima">Inicial de tipo Planta<br>Grookey</div>
+                    </div>
+                    <div class="contenedor">
+                        <img src="images/versionFinal/pikachu.png">
+                        <div class="texto-encima">Modelo de pikachu en el juego</div>
+                    </div>
+                </div>
+                <div class="flex-containerC" id="colum2">
+                    <div class="contenedor">
+                        <img src="images/versionFinal/protaMas.png">
+                        <div class="texto-encima">Protagonista Masculino</div>
+                    </div>
+                    <div class="contenedor">
+                        <img src="images/versionFinal/iniA.png">
+                        <div class="texto-encima" >Inicial de tipo Agua<br>Sobble</div>
+                    </div>
+                    <div class="contenedor">
+                        <img src="images/versionFinal/entrenadora.png">
+                        <div class="texto-encima">Una de las entrenadoras<br>que enfrentaremos</div>
+                    </div>
+                    <div class="contenedor">
+                        <img src="images/versionFinal/legendario.png">
+                        <div class="texto-encima">Posible figura de uno de los<br>pokémons legendarios</div>
+                    </div>
+                </div>
         </div>
+        <footer id="main-footer">
+                <p>Copyrigth &copy; 2019 Review trailer Pokémon Espada y Pokémon Escudo</p>
+            </footer>
     </body>
 </html>

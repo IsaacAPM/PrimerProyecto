@@ -1,6 +1,11 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    width: 100%;
-    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -46,55 +51,64 @@ li a:hover:not(.PokeLogo){
     height: 33.3%;
 }
 
-#section2{
-    width: 100%;
+
+.section2{
+    display: flex;
+    flex-direction: row;
 }
 
 #review{
-    width: 48%;
-    height: 100%;
-    float: left;
     margin-top: 40px;
-    margin-left: 2%;
-    margin-bottom: 5%;
     font-family: Arial, Helvetica, sans-serif;
-    
+    margin-left: 2%;
+    margin-right: 0.5%;
 }
 
 #pokeSS{
     width: 47%;
     height: 100%;
-    float: right;
     margin-top: 40px;
+    margin-left: 0.5%;
     margin-right: 2%;
-    margin-left: 1%;
-    margin-bottom: 40px;
 }
 
-#section3{
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+.flex-containerC{
+    flex-direction: column;
 }
 
-#protaFem>div{
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#colum1{
+    margin-right: 5%;
+}
+
+#colum2{
+    margin-left: 5%;
+}
+
+.contenedor{
+    text-align: center;
+}
+
+.texto-encima{
     position: relative;
-    bottom:450px;
+    bottom:250px;
     color:#fff;
     background-color:#000;
     padding:2px 10px;
-    opacity:0.5;
+    opacity:0.7;
     font-weight:bold;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-#protaMas>div{
-    position: relative;
-    bottom:450px;
-    color:#fff;
-    background-color:#000;
-    padding:2px 10px;
-    opacity:0.5;
-    font-weight:bold;
-    font-family: Arial, Helvetica, sans-serif;
+#main-footer{
+    background: red;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
 }
