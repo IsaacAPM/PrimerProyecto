@@ -2,19 +2,19 @@
 <html>
     <head>
         <title>Primer proyecto</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/styleV2.css">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <ul>
             <li><a class="PokeLogo"><img src="images/logo.png" alt="Pokemon Logo" width="16" height="16"></a></li>
-            <li><a class="videoPkm" href="#seccion1">Video</a></li>
+            <li><a class="videoPkm" href="#video">Video</a></li>
             <li><a class="description" href="#descripcion">Descripción</a></li>
             <li><a class="cards" href="#targetas">Tarjetas</a></li>            
         </ul>
-        <div class="section1" id="seccion1">
-            <video id="video" src="¡Alzaos con la gloria en Pokémon Espada y Pokémon Escudo!.mp4" width="1080" height="608" preload="auto" autoplay controls muted loop></video>
+        <div class="section1" id="video">
+            <video id="pkeVideo" src="¡Alzaos con la gloria en Pokémon Espada y Pokémon Escudo!.mp4" preload="auto" autoplay controls muted loop></video>
         </div>
         <div class="section2" id="descripcion">
             <p id="review" ALIGN="justify">
@@ -23,46 +23,47 @@
             </p>
             <img id="pokeSS" src="images/pokemon-espada-y-escudo-201922715414275_1.jpg" alt="Pokemon sys">
         </div>
-        <div class="flex-container" id="targetas">
-                <div class="flex-containerC" id="colum1">
-                    <div class="contenedor">
-                        <img src="images/versionFinal/protaFem.png">
-                        <div class="texto-encima">Protagonista Femenina</div>
-                    </div>
-                    <div class="contenedor">
-                        <img src="images/versionFinal/iniF.png">
-                        <div class="texto-encima" >Inicial de tipo Fuego<br>Scorbunny</div>
-                    </div>
-                    <div class="contenedor">
-                        <img src="images/versionFinal/iniP.png">
-                        <div class="texto-encima">Inicial de tipo Planta<br>Grookey</div>
-                    </div>
-                    <div class="contenedor">
-                        <img src="images/versionFinal/pikachu.png">
-                        <div class="texto-encima">Modelo de pikachu en el juego</div>
-                    </div>
+        <div class="section3" id="targetas">
+            <div class="imge" id="row1">
+                <div class="contenedor">
+                    <img src="images/versionFinal/protaFem.png" class="targeta" width="600" height="340">
+                    <div class="texto-encima">Protagonista Femenina</div>
                 </div>
-                <div class="flex-containerC" id="colum2">
-                    <div class="contenedor">
-                        <img src="images/versionFinal/protaMas.png">
-                        <div class="texto-encima">Protagonista Masculino</div>
-                    </div>
-                    <div class="contenedor">
-                        <img src="images/versionFinal/iniA.png">
-                        <div class="texto-encima" >Inicial de tipo Agua<br>Sobble</div>
-                    </div>
-                    <div class="contenedor">
-                        <img src="images/versionFinal/entrenadora.png">
-                        <div class="texto-encima">Una de las entrenadoras<br>que enfrentaremos</div>
-                    </div>
-                    <div class="contenedor">
-                        <img src="images/versionFinal/legendario.png">
-                        <div class="texto-encima">Posible figura de uno de los<br>pokémons legendarios</div>
-                    </div>
+                <div class="contenedor">
+                    <img src="images/versionFinal/iniF.png" class="targeta" width="600" height="340"> 
+                    <div class="texto-encima" >Inicial de tipo Fuego<br>Scorbunny</div>
                 </div>
+                <div class="contenedor">
+                    <img src="images/versionFinal/iniP.png" class="targeta" width="600" height="340">
+                    <div class="texto-encima">Inicial de tipo Planta<br>Grookey</div>
+                </div>
+                <div class="contenedor">
+                    <img src="images/versionFinal/pikachu.png" class="targeta" width="600" height="340">
+                    <div class="texto-encima">Modelo de pikachu en el juego</div>
+                </div>
+            </div>
+            <div class="imge" id="row2">
+                <div class="contenedor">
+                    <img src="images/versionFinal/protaMas.png" class="targeta" width="600" height="340">
+                    <div class="texto-encima">Protagonista Masculino</div>
+                </div>
+                <div class="contenedor">
+                    <img src="images/versionFinal/iniA.png" class="targeta" width="600" height="340">
+                    <div class="texto-encima" >Inicial de tipo Agua<br>Sobble</div>
+                </div>
+                <div class="contenedor">
+                    <img src="images/versionFinal/entrenadora.png" class="targeta" width="600" height="340">
+                    <div class="texto-encima">Una de las entrenadoras<br>que enfrentaremos</div>
+                </div>
+                <div class="contenedor">
+                    <img src="images/versionFinal/legendario.png" class="targeta" width="600" height="340">
+                    <div class="texto-encima">Posible figura de uno de los<br>pokémons legendarios</div>
+                </div>
+            </div>
         </div>
+
         <footer id="main-footer">
-                <p>Copyrigth &copy; 2019 Review trailer Pokémon Espada y Pokémon Escudo</p>
-            </footer>
+            <p>Copyrigth &copy; 2019 Review trailer Pokémon Espada y Pokémon Escudo</p>
+        </footer>
     </body>
 </html>
